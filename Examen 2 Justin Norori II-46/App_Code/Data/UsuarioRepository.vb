@@ -1,5 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
+
 Public Class UsuarioRepository
         Private ReadOnly connectionString As String
 
@@ -31,4 +32,3 @@ Public Class UsuarioRepository
             Return usuario
         End Function
     End Class
-

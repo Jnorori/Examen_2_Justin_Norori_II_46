@@ -125,6 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Pages\AdminClientes.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -146,6 +147,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\AdminUsuarios.aspx" />
     <Content Include="Pages\Clientes.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -212,6 +214,13 @@
     <Content Include="App_Code\Models\Usuario.vb" />
     <Content Include="App_Code\Data\ClienteRepository.vb" />
     <Content Include="App_Code\Data\UsuarioRepository.vb" />
+    <Compile Include="Pages\AdminClientes.aspx.designer.vb">
+      <DependentUpon>AdminClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdminClientes.aspx.vb">
+      <DependentUpon>AdminClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="About.aspx.designer.vb">
@@ -258,12 +267,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Pages\AdminUsuarios.aspx.designer.vb">
+      <DependentUpon>AdminUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdminUsuarios.aspx.vb">
+      <DependentUpon>AdminUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Pages\Clientes.aspx.designer.vb">
       <DependentUpon>Clientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Clientes.aspx.vb">
       <DependentUpon>Clientes.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Pages\Login.aspx.designer.vb">
       <DependentUpon>Login.aspx</DependentUpon>
